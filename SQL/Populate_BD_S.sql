@@ -210,33 +210,6 @@ INSERT INTO `coureur` VALUES('218', 'LEFEVRE Laurent', 'FRA', 'DEL');
 INSERT INTO `coureur` VALUES('219', 'NAZON Jean-Patrick', 'FRA', 'DEL');
 
 --
--- Contenu de la table `equipe`
---
-
-INSERT INTO `equipe` VALUES('A2R', 'AG2R PREVOYANCE');
-INSERT INTO `equipe` VALUES('ALS', 'ALESSIO');
-INSERT INTO `equipe` VALUES('BAN', 'IBANESTO.COM');
-INSERT INTO `equipe` VALUES('BLB', 'BRIOCHES LA BOULANGÈ');
-INSERT INTO `equipe` VALUES('C.A', 'CREDIT AGRICOLE');
-INSERT INTO `equipe` VALUES('CAL', 'CALDIROLA - SO.DI');
-INSERT INTO `equipe` VALUES('COF', 'COFIDIS CREDIT PAR T');
-INSERT INTO `equipe` VALUES('CSC', 'TEAM CSC');
-INSERT INTO `equipe` VALUES('DEL', 'JEAN DELATOUR');
-INSERT INTO `equipe` VALUES('EUS', 'EUSKALTEL - EUSKADI');
-INSERT INTO `equipe` VALUES('FAS', 'FASSA BORTOLO');
-INSERT INTO `equipe` VALUES('FDJ', 'FDJEUX.COM');
-INSERT INTO `equipe` VALUES('GST', 'GEROLSTEINER');
-INSERT INTO `equipe` VALUES('KEL', 'KELME - COSTA BLANCA');
-INSERT INTO `equipe` VALUES('LOT', 'LOTTO - DOMO');
-INSERT INTO `equipe` VALUES('ONE', 'ONCE - EROSKI');
-INSERT INTO `equipe` VALUES('QSD', 'QUICK STEP - DAVITAM');
-INSERT INTO `equipe` VALUES('RAB', 'RABOBANK');
-INSERT INTO `equipe` VALUES('SAE', 'SAECO - MACCHINE PER');
-INSERT INTO `equipe` VALUES('TBI', 'TEAM BIANCHI');
-INSERT INTO `equipe` VALUES('TEL', 'TEAM TELEKOM');
-INSERT INTO `equipe` VALUES('USP', 'US POSTAL - BERRY FL');
-
---
 -- Contenu de la table `equipe_budget`
 --
 
@@ -262,63 +235,6 @@ INSERT INTO `equipe_budget` VALUES('SAE', 'SAECO - MACCHINE PER', 2700000, 9);
 INSERT INTO `equipe_budget` VALUES('TBI', 'TEAM BIANCHI', 2700000, 9);
 INSERT INTO `equipe_budget` VALUES('TEL', 'TEAM TELEKOM', 4500000, 9);
 INSERT INTO `equipe_budget` VALUES('USP', 'US POSTAL - BERRY FL', 5400000, 9);
-
---
--- Contenu de la table `etape`
---
-
-INSERT INTO `etape` VALUES(0, 'Paris', 'Paris');
-INSERT INTO `etape` VALUES(1, 'Saint-Denis', 'Meaux');
-INSERT INTO `etape` VALUES(2, 'La Ferté-sous-Jouarre', 'Sedan');
-INSERT INTO `etape` VALUES(3, 'Charleville-Mézières', 'Saint-Dizier');
-INSERT INTO `etape` VALUES(4, 'Joinville', 'Saint-Dizier');
-INSERT INTO `etape` VALUES(5, 'Troyes', 'Nevers');
-INSERT INTO `etape` VALUES(6, 'Nevers', 'Lyon');
-INSERT INTO `etape` VALUES(7, 'Lyon', 'Morzine-Avoriaz');
-INSERT INTO `etape` VALUES(8, 'Sallanches', 'L''Alpe d''Huez');
-INSERT INTO `etape` VALUES(9, 'Bourg d''Oisans', 'Gap');
-INSERT INTO `etape` VALUES(10, 'Gap', 'Marseille');
-INSERT INTO `etape` VALUES(11, 'Narbonne', 'Toulouse');
-INSERT INTO `etape` VALUES(12, 'Gaillac', 'Cap'' Découverte');
-INSERT INTO `etape` VALUES(13, 'Toulouse (Cité de l''espace)', 'Ax 3 Domaines');
-INSERT INTO `etape` VALUES(14, 'Saint-Girons', 'Loudenvielle-Le Louron');
-INSERT INTO `etape` VALUES(15, 'Bagnères-de-Bigorre', 'Luz-Ardiden');
-INSERT INTO `etape` VALUES(16, 'Pau', 'Bayonne');
-INSERT INTO `etape` VALUES(17, 'Dax', 'Bordeaux');
-INSERT INTO `etape` VALUES(18, 'Bordeaux', 'Saint-Maixent-L''Ecole');
-INSERT INTO `etape` VALUES(19, 'Pornic', 'Nantes');
-INSERT INTO `etape` VALUES(20, 'Ville d''Avray', 'Paris');
-
---
--- Contenu de la table `pays`
---
-
-INSERT INTO `pays` VALUES('AUS', 'Australie');
-INSERT INTO `pays` VALUES('AUT', 'Autriche');
-INSERT INTO `pays` VALUES('BEL', 'Belgique');
-INSERT INTO `pays` VALUES('COL', 'Colombie');
-INSERT INTO `pays` VALUES('CRO', 'Croatie');
-INSERT INTO `pays` VALUES('CZE', 'République Tchèque');
-INSERT INTO `pays` VALUES('DEN', 'Danemark');
-INSERT INTO `pays` VALUES('ESP', 'Espagne');
-INSERT INTO `pays` VALUES('EST', 'Estonie');
-INSERT INTO `pays` VALUES('FRA', 'France');
-INSERT INTO `pays` VALUES('GBR', 'Grande-Bretagne');
-INSERT INTO `pays` VALUES('GER', 'Allemagne');
-INSERT INTO `pays` VALUES('HUN', 'Hongrie');
-INSERT INTO `pays` VALUES('ITA', 'Italie');
-INSERT INTO `pays` VALUES('KAZ', 'Kazakhstan');
-INSERT INTO `pays` VALUES('LAT', 'Lettonie');
-INSERT INTO `pays` VALUES('NED', 'Pays-Bas');
-INSERT INTO `pays` VALUES('NOR', 'Norvège');
-INSERT INTO `pays` VALUES('POR', 'Portugal');
-INSERT INTO `pays` VALUES('RSA', 'Afrique du Sud');
-INSERT INTO `pays` VALUES('RUS', 'Russie');
-INSERT INTO `pays` VALUES('SLO', 'Slovénie');
-INSERT INTO `pays` VALUES('SUI', 'Suisse');
-INSERT INTO `pays` VALUES('UKR', 'Ukraine');
-INSERT INTO `pays` VALUES('USA', 'USA');
-INSERT INTO `pays` VALUES('VEN', 'Vénézuela');
 
 -- Le type DOUBLE est recommandé pour les divisions de budgets.
 
